@@ -1,0 +1,19 @@
+{
+  "name": "verity-ai-tutor",
+  "version": "1.0.0",
+  "description": "Verity - a simple AI personal helper chatbot",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "openai": "^5.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
